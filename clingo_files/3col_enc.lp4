@@ -1,0 +1,7 @@
+% GENERATE: each node X has a color in {r,g,b}:
+% define col(nodeID, color)
+col(X,red) ; col(X,green) ; col(X,blue) :- node(X).
+
+
+% TEST: neighbors X,Y mustn't have same color C:
+:- e(X,Y), col(X,C), col(Y,C), X != Y.
