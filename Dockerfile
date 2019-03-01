@@ -26,7 +26,7 @@ RUN cd ~ && \
 	mkdir asp
 
 RUN mkdir $HOME/work/clingo_files
-COPY *.ipynb $HOME/work/
-COPY clingo_files $HOME/work/clingo_files
+COPY *.ipynb $HOME/asp/
+COPY clingo_files $HOME/asp/clingo_files
 
 MAINTAINER Nikolaus Parulian <nikolaus.nova@gmail.com>
