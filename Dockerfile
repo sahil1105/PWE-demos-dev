@@ -25,7 +25,7 @@ RUN pip install PW_explorer
 RUN cd ~ && \
 	mkdir asp
 
-RUN mkdir $HOME/work/clingo_files
+RUN mkdir $HOME/asp/clingo_files
 COPY *.ipynb $HOME/asp/
 COPY clingo_files $HOME/asp/clingo_files
 
