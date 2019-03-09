@@ -1,3 +1,5 @@
+% -*- Mode: Prolog -*-
+
 #const current_year=2019.
 
 % Integrity Constraint Violation for ARTIST_ID (denial):

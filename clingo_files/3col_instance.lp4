@@ -1,3 +1,5 @@
+% -*- Mode: Prolog -*-
+
 % Take a few nodes:
 % define node(nodeID)
 node(1..5).
