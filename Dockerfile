@@ -21,12 +21,17 @@ RUN conda install -c anaconda pygraphviz
 # install PW_explorer	
 RUN pip install PW_explorer
 
+# install LeanEuler
+RUN pip install LeanEuler
+
 # prepare a home directory for answer set programming
 RUN cd ~ && \
 	mkdir pwe
 
 RUN mkdir $HOME/pwe/clingo_files
+RUN mkdir $HOME/pwe/cleanTax_files
 COPY *.ipynb $HOME/pwe/
 COPY clingo_files $HOME/pwe/clingo_files
+COPY cleanTax_files $HOME/pwe/cleanTax_files
 
 MAINTAINER Nikolaus Parulian <nikolaus.nova@gmail.com>
