@@ -99,7 +99,7 @@ dependencies:
     - numpy==1.16.2
     - nxpd==0.2.0
     - pandas==0.24.1
-    - pw-explorer==0.0.19
+    - pw-explorer==0.0.20
     - pyparsing==2.3.1
     - pytz==2018.9
     - scikit-learn==0.20.3
