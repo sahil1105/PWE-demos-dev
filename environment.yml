@@ -111,7 +111,7 @@ dependencies:
     - pandas==0.24.1
     - pw-explorer==0.0.23
     - pwe-cli==0.0.3
-    - pwe-nb-extension==0.0.5
+    - pwe-nb-extension==0.0.6
     - scikit-learn==0.20.3
     - scipy==1.2.1
     - seaborn==0.9.0
